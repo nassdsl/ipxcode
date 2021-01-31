@@ -1,0 +1,12 @@
+section.box-terminal{font-size:12px;border:2px solid whitesmoke;opacity:0.8;font-family:comic sans MS;background:black;max-width:400px;height:250px;border-radius:8px;overflow:hidden;position:relative;margin-left:60%;top:-8rem;color:rgb(172, 172, 172);}
+section.box-terminal-header{text-align:center;font:italic 12px monospace;color:rgb(131, 130, 130);padding:7px;} /*background:rgb(20, 20, 20);*/
+section.box-terminal-content{color:rgb(0, 72, 167);position:relative;left:10px;top:10px;}
+section.box-terminal-node{position:relative;text-align:left;display:inline-flex;left:1px;color:rgb(172, 172, 172);}
+section.box-terminal-comment{color:purple;font-family:comic sans MS; font-size:13px;}
+span.box-terminal-color-object{color:mediumslateblue;position:static;}
+span.tm-color{color:rgb(0, 248, 194);}
+span.tm-c-y{color:rgb(233, 6, 233);}
+section.buttons-terminal-flex{display:inline-flex;position: absolute;left:0;padding:3px 7px 3px;}
+div.btn-terminal-flex-close{background-color:#ff4040;border-radius:100%;width:10px;height:10px;margin:1px;}
+div.btn-terminal-flex-minimize{background:#ffb700;border-radius: 100%;width:10px;height:10px;margin:1px;}
+div.btn-terminal-flex-max{background:#00ae55;border-radius: 100%;width:10px;height:10px;margin:1px;}
