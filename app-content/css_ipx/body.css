@@ -1,20 +1,16 @@
-/* terminal */
-@import "terminal.css";
-/*basics*/
-body{margin:0;overflow-x: hidden;font-family: comic sans MS;}
+
+
+@import "terminal.css";/* terminal */
+
+body{margin:0;overflow-x: hidden;font: normal 20pt monospace;}
 a{text-decoration: none;color:white;}
-section.header{padding:25px;background-color:rgb(20, 20, 20);color:white;}
-section.block-head{font: normal 22px comic sans MS}
+section.header{padding:25px;color:white;background:rgb(20, 20, 20);}
+section.block-head{font: normal 22px monospace;}
 strong.co-point{color:purple; margin:0;}
-section.body-front{width: 100%;height:450px;background-color:purple;}
-section.text-front{text-align: left;padding-top:185px;color:white;font:normal 20pt comic sans MS;margin:0px 200px 00px;}
-section.body-about{background:rgb(236, 236, 236);max-width:100%;height:450px;margin:0px;position:relative;}
+section.body-front{width: 100%;height:330px;background: rgb(255,255,255);background: linear-gradient(288deg, rgba(255,255,255,1) 0%, rgba(136,1,136,1) 0%, rgba(252,101,252,1) 81%);}
+section.text-front{text-align: left;padding-top:130px;color:white;font:normal 20pt monospace;margin:0px 200px 00px;}
+section.body-about{background:rgb(241, 241, 241);max-width:100%;height:450px;margin:0px;position:relative;}
 section.rodape{z-index:1;background-color:rgb(20, 20, 20); height:50px;max-width:100%;padding:20px;text-align:center;position:static;bottom:-60px;border-right:5px solid rgb(20, 20, 20);margin:0;}
 h1.shift{margin:0;}
 text.text-body-front{background-color:rgb(20, 20, 20);padding:5px 20px 5px;border-radius:5px;left:4px;position:relative;}
 text.text-body-bottom{background-color:whitesmoke;padding:5px 20px 5px;border-radius:5px;left:-7px;position:relative;top:30%;font:normal 15px monospace;}
-@media only screen and (max-width: 1000px) {
-    section.text-front{text-align: center;padding-top:185px;color:white;font:normal 20pt monospace;margin:auto;}
-    section.body-front{width: 100%;height:500px;background-color:purple;}
-    section.box-terminal{font-family:monospace;background:black;max-width:400px;height:250px;border-radius:5px;overflow:hidden;position:relative;margin:auto;top:1rem;color:rgb(172, 172, 172);}
-    }

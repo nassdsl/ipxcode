@@ -1,4 +1,4 @@
-section.box-terminal{font-size:12px;border:2px solid whitesmoke;opacity:0.8;font-family:comic sans MS;background:black;max-width:400px;height:250px;border-radius:8px;overflow:hidden;position:relative;margin-left:60%;top:-8rem;color:rgb(172, 172, 172);}
+section.box-terminal{font-size:12px;border:2px solid whitesmoke;opacity:0.8;font-family:comic sans MS;background:black;max-width:400px;height:250px;border-radius:5px;overflow:hidden;position:relative;margin-left:60%;top:-8rem;color:rgb(172, 172, 172);}
 section.box-terminal-header{text-align:center;font:italic 12px monospace;color:rgb(131, 130, 130);padding:7px;} /*background:rgb(20, 20, 20);*/
 section.box-terminal-content{color:rgb(0, 72, 167);position:relative;left:10px;top:10px;}
 section.box-terminal-node{position:relative;text-align:left;display:inline-flex;left:1px;color:rgb(172, 172, 172);}
